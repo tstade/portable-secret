@@ -12,22 +12,12 @@ Portable Secret is a little hack that allows you to:
 It's portable because: **decrypting these secrets does not require special software!**
 All you need is a browser.
 
-I created Portable Secret **to securely exchange documents via email with my mother**, who can't be expected to learn [PGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy), [age](https://github.com/FiloSottile/age), or similar.
-
-I also use Portable Secret to store some my most sensitive secrets (private keys, 2FA recovery codes, etc.)
-
-Finally, I use it to store copies of important documents (like a picture of passport). These documents are accessible to me from anywhere, **even if all my trusted devices have been stolen or lost**.
-
-Sounds too good to be true? Keep reading. This is for you.
-
 ---
 
 Portable Secret is not a product and it is barely a project.
 **It is just a neat trick, a *hack***.
 
 The [source code](https://github.com/mprimi/portable-secret) and [creator tool](https://mprimi.github.io/portable-secret/creator/) are provided as a demonstration.
-
-**Update January 2023**: [Rocky W.](https://www.rocky.dev/) took this idea and ran with it, creating a beautiful full-fledged product: [PrivacyProtect.dev](https://www.privacyprotect.dev/)
 
 ---
 
@@ -53,22 +43,6 @@ The embedded code is straightforward:
  - Display the decrypted secret
 
 ---
-
-## How I use Portable Secret
-
-### Private communication
-
-Do you want to communicate privately with people, but you can't expect them to learn how to use PGP?
-
-Send a Portable Secret. For example as email attachment.
-
- > Hey ___, attached to this email is the PDF and data you requested, but it's encrypted. Never double-click on attachments, it's dangerous! Give me a call when you get this, and I'll show you how to read it.
-
-Whenever they call me, I tell them:
- > Right-click on the attachment and 'Open with...' any browser.
- > The password is 'banana_split'.
- > Now you can save the decrypted PDF.
-
 ### Store top-level secrets
 
 Some secrets don't belong in your password manager. Things like backup private keys, 2FS recovery keys, wallet keys, safe combinations, treasure maps, etc.
